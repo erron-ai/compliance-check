@@ -2,7 +2,7 @@
 
 Audit CLI for EU AI Act, GDPR, and SOC 2 checks against agents.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
