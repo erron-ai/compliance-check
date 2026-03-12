@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compliance-check"
+version = "0.1.0"
+description = "Audit CLI for EU AI Act, GDPR, and SOC 2 checks against agents."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/compliance-check"
+Issues = "https://github.com/erron-ai/compliance-check/issues"
+
+[project.scripts]
+compliance-check = "compliance_check.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
